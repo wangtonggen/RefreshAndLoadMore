@@ -1,0 +1,35 @@
+apply plugin: 'com.android.library'
+
+android {
+
+    compileSdkVersion 24
+    buildToolsVersion "23.0.3"
+
+    defaultConfig {
+        minSdkVersion 15
+        targetSdkVersion 24
+        versionCode 1
+        versionName "1.0"
+    }
+
+    lintOptions {
+        abortOnError false
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile 'com.android.support:recyclerview-v7:24.2.1'
+    compile 'com.android.support:cardview-v7:24.2.1'
+}
+
+//apply from: rootProject.file('gradle/android-artifacts.gradle')
+//apply from: rootProject.file('gradle/gradle-jcenter-push.gradle')
+//apply from: "bintrayUpload.gradle"
+
