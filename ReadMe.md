@@ -11,6 +11,7 @@
 1. 目前只支持标题所说的控件
 2. recyclerView 设置StaggeredGridLayoutManager()的布局方式时有点bug
 3. 欢迎大家及时反馈信息以及好的建议
+4. 
 ## 联系方式 ##
 1814598581@qq.com
 
