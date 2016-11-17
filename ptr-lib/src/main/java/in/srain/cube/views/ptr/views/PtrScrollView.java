@@ -13,7 +13,7 @@ import in.srain.cube.views.ptr.interfaes.PullableView;
  * desc 自定义scrollView
  */
 
-public class PullableScrollView extends ScrollView implements PullableView {
+public class PtrScrollView extends ScrollView implements PullableView {
     /**
      * 判断是否需要下拉
      */
@@ -22,15 +22,15 @@ public class PullableScrollView extends ScrollView implements PullableView {
      * 判断是否需要上拉
      */
     private boolean canPullUp = false;
-    public PullableScrollView(Context context) {
+    public PtrScrollView(Context context) {
         super(context);
     }
 
-    public PullableScrollView(Context context, AttributeSet attrs) {
+    public PtrScrollView(Context context, AttributeSet attrs) {
         super(context, attrs);
     }
 
-    public PullableScrollView(Context context, AttributeSet attrs, int defStyleAttr) {
+    public PtrScrollView(Context context, AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
     }
 

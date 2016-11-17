@@ -7,18 +7,18 @@
 ![](http://i.imgur.com/1pyUdRo.gif)
 ## gridView ##
 ![](http://i.imgur.com/qAHzvpc.gif)
+## ExpandableListView ##
+
 ## 问题 ##
 1. 目前只支持标题所说的控件
 2. recyclerView 设置StaggeredGridLayoutManager()的布局方式时有点bug
 3. 欢迎大家及时反馈信息以及好的建议
-4. 
 ## 联系方式 ##
 1814598581@qq.com
-
 ## Github ##
 [https://github.com/wangtonggen/RefreshAndLoadMore](https://github.com/wangtonggen/RefreshAndLoadMore "本项目地址")
 
 ## 特写鸣谢 ##
-[https://github.com/captainbupt/android-Ultra-Pull-To-Refresh-With-Load-More](https://github.com/captainbupt/android-Ultra-Pull-To-Refresh-With-Load-More)
-[https://github.com/liaohuqiu/android-Ultra-Pull-To-Refresh](https://github.com/liaohuqiu/android-Ultra-Pull-To-Refresh)
+1. [https://github.com/captainbupt/android-Ultra-Pull-To-Refresh-With-Load-More](https://github.com/captainbupt/android-Ultra-Pull-To-Refresh-With-Load-More)
+2. [https://github.com/liaohuqiu/android-Ultra-Pull-To-Refresh](https://github.com/liaohuqiu/android-Ultra-Pull-To-Refresh)
 

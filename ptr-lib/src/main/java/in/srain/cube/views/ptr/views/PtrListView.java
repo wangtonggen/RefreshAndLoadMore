@@ -15,23 +15,23 @@ import in.srain.cube.views.ptr.util.WindowManagerUtils;
  * desc 自定义ListView 来监听是否需要加载更多
  */
 
-public class PullableListView extends ListView implements PullableView {
+public class PtrListView extends ListView implements PullableView {
     private Context context;
     private boolean canPullDown = false;
     private boolean canPullUp = false;
-    public PullableListView(Context context) {
+    public PtrListView(Context context) {
         super(context);
         this.context = context;
         init();
     }
 
-    public PullableListView(Context context, AttributeSet attrs) {
+    public PtrListView(Context context, AttributeSet attrs) {
         super(context, attrs);
         this.context = context;
         init();
     }
 
-    public PullableListView(Context context, AttributeSet attrs, int defStyleAttr) {
+    public PtrListView(Context context, AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
         this.context = context;
         init();

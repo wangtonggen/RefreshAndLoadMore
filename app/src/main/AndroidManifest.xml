@@ -19,6 +19,7 @@
         <activity android:name=".ui.ScrollViewActivity"/>
         <activity android:name=".ui.RecyclerViewActivity"/>
         <activity android:name=".ui.GridViewActivity"/>
+        <activity android:name=".ui.ExpandableListViewActivity"/>
     </application>
 
 </manifest>

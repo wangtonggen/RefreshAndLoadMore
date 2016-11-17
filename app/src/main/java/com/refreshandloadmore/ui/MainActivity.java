@@ -14,14 +14,14 @@ import in.srain.cube.views.ptr.PtrClassicFrameLayout;
 import in.srain.cube.views.ptr.PtrDefaultHandler;
 import in.srain.cube.views.ptr.PtrFrameLayout;
 import in.srain.cube.views.ptr.PtrHandler2;
-import in.srain.cube.views.ptr.views.PullableListView;
+import in.srain.cube.views.ptr.views.PtrListView;
 
 public class MainActivity extends AppCompatActivity {
 
     PtrClassicFrameLayout rotate_header_list_view_frame;
-    PullableListView rotate_header_list_view;
+    PtrListView rotate_header_list_view;
 
-    private String[] items={"1、ScrollView","2、RecyclerView","3、GridView"};
+    private String[] items={"1、ScrollView","2、RecyclerView","3、GridView","4、ExpandableListView"};
 //    private String[] items={"1、ArrayAdapter_List","2、SimpleAdapter_List"
 //            ,"3、SimpleCursorAdapter_List","4、MyAdapter_List","hahah","enennene"
 //            ,"ajhhsuashausha","王大锤","王晓吹","111","222","333","444","555"
@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.fragment_classic_header_with_list_view);
         Toast.makeText(MainActivity.this,"当前界面使用的是listView",Toast.LENGTH_SHORT).show();
         rotate_header_list_view_frame = (PtrClassicFrameLayout) findViewById(R.id.fragment_ptr_home_ptr_frame);
-        rotate_header_list_view = (PullableListView) findViewById(R.id.rotate_header_list_view);
+        rotate_header_list_view = (PtrListView) findViewById(R.id.rotate_header_list_view);
 
         initListView();
 
@@ -53,6 +53,10 @@ public class MainActivity extends AppCompatActivity {
                     case 2:
                         Intent gridViewIntent = new Intent(MainActivity.this,GridViewActivity.class);
                         startActivity(gridViewIntent);
+                        break;
+                    case 3:
+                        Intent expandIntent = new Intent(MainActivity.this,ExpandableListViewActivity.class);
+                        startActivity(expandIntent);
                         break;
                     default:
                         Toast.makeText(MainActivity.this,"敬请期待",Toast.LENGTH_SHORT).show();

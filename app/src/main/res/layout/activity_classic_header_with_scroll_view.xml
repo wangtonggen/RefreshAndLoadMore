@@ -15,7 +15,7 @@
         cube_ptr:ptr_ratio_of_header_height_to_refresh="1.2"
         cube_ptr:ptr_resistance="1.7">
 
-        <in.srain.cube.views.ptr.views.PullableScrollView
+        <in.srain.cube.views.ptr.views.PtrScrollView
             android:id="@+id/rotate_header_list_view"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -66,7 +66,7 @@
                     android:gravity="center"
                     android:text="5" />
             </LinearLayout>
-        </in.srain.cube.views.ptr.views.PullableScrollView>
+        </in.srain.cube.views.ptr.views.PtrScrollView>
 
     </in.srain.cube.views.ptr.PtrClassicFrameLayout>
 </RelativeLayout>

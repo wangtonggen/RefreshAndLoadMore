@@ -15,19 +15,19 @@ import in.srain.cube.views.ptr.util.WindowManagerUtils;
  * desc 自定义RecycleRecyclerView
  */
 
-public class PullableRecyclerView extends RecyclerView implements PullableView {
+public class PtrRecyclerView extends RecyclerView implements PullableView {
     private Context context;
-    public PullableRecyclerView(Context context) {
+    public PtrRecyclerView(Context context) {
         super(context);
         this.context = context;
     }
 
-    public PullableRecyclerView(Context context, @Nullable AttributeSet attrs) {
+    public PtrRecyclerView(Context context, @Nullable AttributeSet attrs) {
         super(context, attrs);
         this.context = context;
     }
 
-    public PullableRecyclerView(Context context, @Nullable AttributeSet attrs, int defStyle) {
+    public PtrRecyclerView(Context context, @Nullable AttributeSet attrs, int defStyle) {
         super(context, attrs, defStyle);
         this.context = context;
     }

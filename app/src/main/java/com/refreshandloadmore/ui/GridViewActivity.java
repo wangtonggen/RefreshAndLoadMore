@@ -4,7 +4,6 @@ import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
-import android.widget.ArrayAdapter;
 import android.widget.SimpleAdapter;
 
 import com.refreshandloadmore.R;
@@ -19,7 +18,6 @@ import in.srain.cube.views.ptr.PtrDefaultHandler;
 import in.srain.cube.views.ptr.PtrFrameLayout;
 import in.srain.cube.views.ptr.PtrHandler2;
 import in.srain.cube.views.ptr.views.PtrGridView;
-import in.srain.cube.views.ptr.views.PullableListView;
 
 /**
  * Created by 王统根
